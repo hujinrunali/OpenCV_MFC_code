@@ -158,6 +158,7 @@
   <ItemGroup>
     <ClCompile Include="AdvancedCoreMain.cpp" />
     <ClCompile Include="BaseDataStructure.cpp" />
+    <ClCompile Include="Threshold.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
