@@ -1,9 +1,10 @@
 TEMPLATE = app
-CONFIG += console c++11
+CONFIG += console c++11 core
 CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        ImageClassification.cpp \
         funcclass.cpp \
         main.cpp
 
