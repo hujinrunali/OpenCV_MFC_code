@@ -27,6 +27,7 @@ string getPath()
     return path;
 }
 
+<<<<<<< HEAD
 Mat removeLight(Mat img,Mat pattern,int method);
 Mat calculateLightPattern(Mat img);
 
@@ -60,3 +61,9 @@ Mat calculateLightPattern(Mat img)
     blur(img,pattern,Size(img.cols/3,img.cols/3));
     return pattern;
 }
+=======
+int main()
+{
+    return 0;
+}
+>>>>>>> b8585bc8cd0cdd5457ece1d002538e087b8daf24
